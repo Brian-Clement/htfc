@@ -9,7 +9,7 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: develop
-  remotes: {  }
+  remotes: git@github.com:Brian-Clement/htfc.git
 drush:
   aliases:
     remote: '${project.machine_name}.test'
