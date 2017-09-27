@@ -34,6 +34,7 @@ cache:
 addons:
   ssh_known_hosts:
   # - svn-4786.devcloud.hosting.acquia.com
+    - svn-6886.devcloud.hosting.acquia.com:htfcd8.git
   chrome: stable
 
 # @see https://docs.travis-ci.com/user/notifications
