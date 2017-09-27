@@ -1,14 +1,14 @@
 project:
   machine_name: htfc
-  prefix: BLT
-  human_name: 'BLTed 8'
+  prefix: HTFC
+  human_name: 'How to fight Chad'
   profile:
     name: lightning
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
 git:
-  default_branch: master
+  default_branch: develop
   remotes: {  }
 drush:
   aliases:
