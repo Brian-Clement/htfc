@@ -9,7 +9,9 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: develop
-  remotes: git@github.com:Brian-Clement/htfc.git
+  remotes:
+    - git@github.com:Brian-Clement/htfc.git
+    - htfcd8@svn-6886.devcloud.hosting.acquia.com:htfcd8.git
 drush:
   aliases:
     remote: '${project.machine_name}.test'
