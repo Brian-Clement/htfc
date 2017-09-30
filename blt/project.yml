@@ -34,3 +34,6 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+  cm:
+    # Possible values: core-only, config-split, features, none.
+    strategy: core-only
