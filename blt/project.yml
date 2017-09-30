@@ -10,8 +10,8 @@ project:
 git:
   default_branch: develop
   remotes:
-    - git@github.com:Brian-Clement/htfc.git
-    - htfcd8@svn-6886.devcloud.hosting.acquia.com:htfcd8.git
+    - 'git@github.com:Brian-Clement/htfc.git'
+    - 'htfcd8@svn-6886.devcloud.hosting.acquia.com:htfcd8.git'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
@@ -35,5 +35,4 @@ modules:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
   cm:
-    # Possible values: core-only, config-split, features, none.
-    strategy: core-only
+    strategy: config-split
