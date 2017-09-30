@@ -7,7 +7,8 @@
     "require": {
         "acquia/blt": "^8.3",
         "geerlingguy/drupal-vm": "~4.3",
-        "drupal/admin_toolbar": "^1.20"
+        "drupal/admin_toolbar": "^1.20",
+        "drupal/console": "^1.0"
     },
     "require-dev": {},
     "extra": {
