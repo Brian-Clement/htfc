@@ -99,6 +99,7 @@ module:
   menu_link_content: 1
   views: 10
   lightning: 1000
+  htfc_subprofile: 0
 theme:
   stable: 0
   classy: 0

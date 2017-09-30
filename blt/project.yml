@@ -3,7 +3,7 @@ project:
   prefix: HTFC
   human_name: 'How to fight Chad'
   profile:
-    name: lightning
+    name: htfc_subprofile
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
