@@ -13,9 +13,11 @@ logo:
   use_default: false
 table_responsive: '-1'
 table: ''
+cdn_jsdelivr_theme: bootstrap_theme
+navbar_inverse: 1
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: false
-cdn_jsdelivr_theme: bootstrap_theme
+navbar_position: static-top
