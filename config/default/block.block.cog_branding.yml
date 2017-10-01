@@ -1,0 +1,25 @@
+uuid: c1cf3a74-b02d-44a7-ac50-20657568fc22
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cog
+_core:
+  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+id: cog_branding
+theme: cog
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
