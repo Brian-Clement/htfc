@@ -1,17 +1,17 @@
-uuid: 850a1364-0560-41a7-8662-5ac650e3fd00
+uuid: 7b64bc49-a596-4ea0-b69b-b64e7cf22e75
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - cog
+    - drupal8_zymphonies_theme
 _core:
-  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
-id: cog_messages
-theme: cog
-region: branding
-weight: 0
+  default_config_hash: pL9lPtMNe-Ln-z_ZLAV8YmjeAHjv4u3NEGOxCMC7Eis
+id: drupal8_zymphonies_theme_messages
+theme: drupal8_zymphonies_theme
+region: highlighted
+weight: -50
 provider: null
 plugin: system_messages_block
 settings:

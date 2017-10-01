@@ -1,4 +1,4 @@
-uuid: 58911e44-099b-4c6e-b721-17312bbd8a38
+uuid: d5f1191c-1871-46a4-84c4-2bb20dcfe9d9
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - bootstrap
+    - drupal8_zymphonies_theme
 _core:
-  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
-id: bootstrap_account_menu
-theme: bootstrap
-region: navigation_collapsible
-weight: -7
+  default_config_hash: _nAXC7GnTksGBQGHa4izzWtjiIB4BmokhG3r2X69Ew8
+id: drupal8_zymphonies_theme_account_menu
+theme: drupal8_zymphonies_theme
+region: auto_hidden_block
+weight: 11
 provider: null
 plugin: 'system_menu_block:account'
 settings:
