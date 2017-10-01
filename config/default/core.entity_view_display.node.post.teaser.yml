@@ -5,8 +5,11 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.post.body
+    - field.field.node.post.field_image_browser
+    - image.style.crop_thumbnail
     - node.type.post
   module:
+    - image
     - text
     - user
 id: node.post.teaser
@@ -17,12 +20,19 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 1
     settings:
-      trim_length: 600
+      trim_length: 500
     third_party_settings: {  }
     region: content
-  links:
-    weight: 100
+  field_image_browser:
+    type: image
+    weight: 0
     region: content
-hidden: {  }
+    label: hidden
+    settings:
+      image_style: crop_thumbnail
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  links: true
