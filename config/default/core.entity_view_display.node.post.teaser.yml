@@ -1,0 +1,38 @@
+uuid: b25a937f-07ba-4bd6-bb36-654fc0b4c457
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.post.body
+    - field.field.node.post.field_image_browser
+    - image.style.crop_thumbnail
+    - node.type.post
+  module:
+    - image
+    - text
+    - user
+id: node.post.teaser
+targetEntityType: node
+bundle: post
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 500
+    third_party_settings: {  }
+    region: content
+  field_image_browser:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: crop_thumbnail
+      image_link: content
+    third_party_settings: {  }
+hidden:
+  links: true
