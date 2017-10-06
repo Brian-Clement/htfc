@@ -1,7 +1,7 @@
 features:
   comment_user_picture: true
   comment_user_verification: true
-  favicon: true
+  favicon: 1
   logo: true
   name: true
   node_user_picture: true
@@ -12,8 +12,13 @@ google_plus_url: 'https://plus.google.com/+ZymphoniesTechnologies'
 linkedin_url: 'http://www.linkedin.com/company/zymphonies'
 pinterest_url: 'https://www.pinterest.com/zymphonies'
 rss_url: rss.xml
-copyright_text: 'Copyright 2015· All rights reserved'
-show_social_icon: 1
-show_credit_link: 1
+copyright_text: ''
+show_social_icon: 0
+show_credit_link: 0
 _core:
   default_config_hash: FIKpUAUBhRvu30trYoPz9z7O8dAeWlZ3GILxKamftng
+logo:
+  use_default: 0
+  path: themes/custom/fist.png
+favicon:
+  use_default: 1
