@@ -1,16 +1,16 @@
-uuid: 647fb948-f1ba-45f9-9178-a2b381404b7f
+uuid: b256d361-93ab-467b-bc8e-a08662adbd3c
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bootstrap
+    - drupal8_zymphonies_theme
 _core:
-  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
-id: bootstrap_powered
-theme: bootstrap
-region: footer
+  default_config_hash: GpUaz7FJXEtQb8SHa8h5OzSPj6RcNds8tOnO1-itpfQ
+id: drupal8_zymphonies_theme_powered
+theme: drupal8_zymphonies_theme
+region: auto_hidden_block
 weight: -10
 provider: null
 plugin: system_powered_by_block

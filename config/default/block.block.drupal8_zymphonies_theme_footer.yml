@@ -1,4 +1,4 @@
-uuid: 2b63cfd1-526c-47a9-b6b3-a530749769c8
+uuid: 552e156e-f32a-4a09-a442-0ce44a29357b
 langcode: en
 status: true
 dependencies:
@@ -7,12 +7,12 @@ dependencies:
   module:
     - system
   theme:
-    - bootstrap
+    - drupal8_zymphonies_theme
 _core:
-  default_config_hash: h06zhb3xV9_2_3Zy9NsyylL7YBaEDlMwMEqNwAn8kMo
-id: bootstrap_footer
-theme: bootstrap
-region: footer
+  default_config_hash: EqwG5dMtA9YvbNF3MaYQwRdEuJIb1sTAjZzN0PbZOAs
+id: drupal8_zymphonies_theme_footer
+theme: drupal8_zymphonies_theme
+region: footer_menu
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

@@ -1,16 +1,16 @@
-uuid: 50194e43-3e7e-48d1-920e-6b1780bdcf9d
+uuid: 88e9a62b-4f14-4daa-892e-8454bf72d4fe
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bootstrap
+    - drupal8_zymphonies_theme
 _core:
-  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
-id: bootstrap_branding
-theme: bootstrap
-region: navigation
+  default_config_hash: I1mVPaNy2HynGDxN6quW2alTxwh2wpLrepeJZEQb5ww
+id: drupal8_zymphonies_theme_branding
+theme: drupal8_zymphonies_theme
+region: header
 weight: 0
 provider: null
 plugin: system_branding_block
@@ -21,5 +21,5 @@ settings:
   label_display: '0'
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: true
+  use_site_slogan: false
 visibility: {  }

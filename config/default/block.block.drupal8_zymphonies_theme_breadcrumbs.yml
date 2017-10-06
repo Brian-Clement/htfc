@@ -1,16 +1,16 @@
-uuid: 098da7fa-c047-4e2f-ac2e-e10ded8dd71d
+uuid: 251e687f-4719-4516-b931-ebf552c5955c
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - bootstrap
+    - drupal8_zymphonies_theme
 _core:
-  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
-id: bootstrap_breadcrumbs
-theme: bootstrap
-region: header
+  default_config_hash: Ge3b4MEySV2QvgdUJ31QrS8HgCK9PCxSYCLVt2mUVoU
+id: drupal8_zymphonies_theme_breadcrumbs
+theme: drupal8_zymphonies_theme
+region: breadcrumb
 weight: -100
 provider: null
 plugin: system_breadcrumb_block
