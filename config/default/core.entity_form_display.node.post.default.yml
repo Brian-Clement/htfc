@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - entity_browser.browser.media
     - field.field.node.post.body
-    - field.field.node.post.field_image_browser
-    - image.style.thumbnail
+    - field.field.node.post.field_media
     - node.type.post
   module:
-    - image
+    - entity_browser
     - path
     - text
 id: node.post.default
@@ -31,13 +31,18 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image_browser:
-    weight: 122
+  field_media:
+    weight: 123
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      entity_browser: media
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      open: true
+      selection_mode: selection_append
+      field_widget_display_settings: {  }
     third_party_settings: {  }
-    type: image_image
+    type: entity_browser_entity_reference
     region: content
   path:
     type: path

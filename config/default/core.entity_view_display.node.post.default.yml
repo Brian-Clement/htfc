@@ -4,10 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.post.body
-    - field.field.node.post.field_image_browser
+    - field.field.node.post.field_media
     - node.type.post
   module:
-    - image
     - text
     - user
 id: node.post.default
@@ -22,16 +21,18 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_image_browser:
-    weight: 102
-    label: above
+  field_media:
+    weight: 103
+    label: hidden
     settings:
-      image_style: ''
-      image_link: ''
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    type: image
+    type: entity_reference_entity_view
     region: content
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }
