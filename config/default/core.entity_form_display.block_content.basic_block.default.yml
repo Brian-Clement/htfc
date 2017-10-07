@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - block_content.type.basic_block
+    - entity_browser.browser.media
     - field.field.block_content.basic_block.body
+    - field.field.block_content.basic_block.field_media
   module:
+    - entity_browser
     - field_layout
     - layout_discovery
     - text
@@ -26,6 +29,19 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+    region: content
+  field_media:
+    weight: 27
+    settings:
+      entity_browser: media
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      open: true
+      selection_mode: selection_append
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
     region: content
   info:
     type: string_textfield
