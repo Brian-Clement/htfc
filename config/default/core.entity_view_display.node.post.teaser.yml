@@ -8,8 +8,14 @@ dependencies:
     - field.field.node.post.field_media
     - node.type.post
   module:
+    - field_layout
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.post.teaser
 targetEntityType: node
 bundle: post

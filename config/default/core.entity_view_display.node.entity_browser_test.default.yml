@@ -14,9 +14,15 @@ dependencies:
     module:
       - entity_browser_example
   module:
+    - field_layout
     - image
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 _core:
   default_config_hash: uEMF6uH3b7T4tdznp4-Yyl5ds3DYvcObjc8NoAGlKD8
 id: node.entity_browser_test.default

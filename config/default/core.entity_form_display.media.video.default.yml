@@ -6,8 +6,14 @@ dependencies:
     - field.field.media.video.field_media_video_embed_field
     - media_entity.bundle.video
   module:
+    - field_layout
+    - layout_discovery
     - path
     - video_embed_field
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: media.video.default
 targetEntityType: media
 bundle: video

@@ -9,8 +9,14 @@ dependencies:
     - node.type.post
   module:
     - entity_browser
+    - field_layout
+    - layout_discovery
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.post.default
 targetEntityType: node
 bundle: post
