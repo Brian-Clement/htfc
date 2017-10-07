@@ -4,12 +4,17 @@ status: true
 dependencies:
   config:
     - field.field.node.post.body
-    - field.field.node.post.field_image_browser
+    - field.field.node.post.field_media
     - node.type.post
   module:
-    - image
+    - field_layout
+    - layout_discovery
     - text
     - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: node.post.default
 targetEntityType: node
 bundle: post
@@ -18,20 +23,22 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_image_browser:
-    weight: 102
-    label: above
+  field_media:
+    weight: 1
+    label: hidden
     settings:
-      image_style: ''
-      image_link: ''
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    type: image
+    type: entity_reference_entity_view
     region: content
   links:
-    weight: 100
+    weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }
