@@ -22,17 +22,24 @@ settings:
             - '-'
             - Outdent
             - Indent
+            - HorizontalRule
         -
-          name: Links
+          name: Alignment
           items:
-            - DrupalLink
-            - DrupalUnlink
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
         -
           name: Lists
           items:
             - BulletedList
             - NumberedList
             - '-'
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
         -
           name: Media
           items:
