@@ -1,0 +1,64 @@
+COMMANDS
+------------
+pm-enable: GOOD. testEnDisUnList().
+pm-disable: GOOD. testEnDisUnList().
+pm-uninstall: GOOD. testEnDisUnList().
+pm-list: GOOD. testEnDisUnList().
+pm-info: GOOD. testEnDisUnList().
+
+sql-cli:
+sql-connect:
+sql-query: FAIR. Implicit by site-install, sql-sync
+sql-dump: GOOD. tested by sqlDumpTest.
+sql-sync: GOOD. testLocalSqlSync().
+sql-drop: FAIR. Implicit by site-install
+sql-sanitize and plugins: FAIR. Implicit by testLocalSqlSync()
+
+
+updatedb: NONE. Used to be implicitly tested by siteUpgradeTest.
+archive-dump: GOOD
+archive-restore: GOOD. Has own test and implicitly tested by environment cache in Unish framework.
+help
+version: GOOD. Implicit by testStandaloneScript()
+php-eval: GOOD. Implicitly tested by many tests (e.g. completeTest).
+php-script: GOOD.
+drupal-directory: GOOD
+cache-get: GOOD
+cache-set: GOOD
+cache-clear: GOOD
+core-config: NONE
+core-cron
+core-status: FAIR: Implicit test by contextTest.
+docs
+core-rsync: GOOD
+core-quick-drupal: GOOD
+image: GOOD
+queue-*: GOOD
+runserver
+search-*
+shellalias: GOOD
+  need test: shell alias with site alias
+site-install: FAIR. Implicit test by setUpDrupal().
+site-alias: NONE
+state: NONE
+ssh: GOOD
+topic
+watchdog-*: GOOD
+
+user-*: GOOD.
+
+INCLUDES
+------------
+backend: GOOD
+  need test: --pipe with remote alias and --pipe with list of aliases
+batch: GOOD
+bootstrap:
+command: FAIR
+context: FAIR. Many functions implicitly tested. Option merging (config, include, alias-path) not tested.
+drush: NONE.
+environment
+sitealias. FAIR. Explicit test for alias lists. Single aliases implicitly tested by contextTest.  Option propagation tested by backendTest.  Option recovery for @self alias tested by sqlDumpTest.
+drupal
+exec: GOOD: Implicitly tested all over.
+filesystem
+output
