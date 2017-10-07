@@ -1,0 +1,15 @@
+uuid: d241eafd-4ac5-4023-997f-6c9b04f6996d
+langcode: en
+status: true
+dependencies: {  }
+name: medium_scale
+label: 'Medium scale 800'
+effects:
+  cc7a0b3b-ceb5-4212-b4a3-ec6cd4fd2beb:
+    uuid: cc7a0b3b-ceb5-4212-b4a3-ec6cd4fd2beb
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: null
+      upscale: true

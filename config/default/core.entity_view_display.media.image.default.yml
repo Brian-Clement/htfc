@@ -5,10 +5,11 @@ dependencies:
   config:
     - field.field.media.image.field_image
     - media_entity.bundle.image
+    - responsive_image.styles.base_responsive_style
   module:
     - field_layout
-    - image
     - layout_discovery
+    - responsive_image
 third_party_settings:
   field_layout:
     id: layout_onecol
@@ -22,10 +23,10 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: ''
+      responsive_image_style: base_responsive_style
       image_link: ''
     third_party_settings: {  }
-    type: image
+    type: responsive_image
     region: content
   name:
     label: hidden

@@ -1,6 +1,6 @@
 uuid: f4505bff-bfa5-49c1-a46a-8dda9d881846
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - drupal8_zymphonies_theme

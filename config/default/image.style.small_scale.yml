@@ -1,0 +1,15 @@
+uuid: afa6b1bb-3b23-42c1-b75e-272ee498d55d
+langcode: en
+status: true
+dependencies: {  }
+name: small_scale
+label: 'Small scale 600'
+effects:
+  60b73443-a882-441e-b0f9-4b9518758711:
+    uuid: 60b73443-a882-441e-b0f9-4b9518758711
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: null
+      upscale: true
