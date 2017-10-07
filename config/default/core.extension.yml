@@ -4,6 +4,7 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
+  ckeditor: 0
   config: 0
   config_filter: 0
   config_split: 0
@@ -20,11 +21,14 @@ module:
   dropzonejs_eb_widget: 0
   dynamic_page_cache: 0
   editor: 0
+  embed: 0
   entity: 0
   entity_browser: 0
   entity_browser_entity_form: 0
   entity_browser_example: 0
+  entity_embed: 0
   field: 0
+  field_layout: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -52,6 +56,7 @@ module:
   user: 0
   video_embed_field: 0
   video_embed_media: 0
+  video_embed_wysiwyg: 0
   views_ui: 0
   menu_link_content: 1
   pathauto: 1

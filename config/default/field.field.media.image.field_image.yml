@@ -1,20 +1,20 @@
-uuid: f7c5c1ed-9dd6-424d-9688-e2f28e82b140
+uuid: f413a93a-41c5-4982-aeba-ee663e60190c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image_browser
-    - node.type.post
+    - field.storage.media.field_image
+    - media_entity.bundle.image
   module:
     - image
-id: node.post.field_image_browser
-field_name: field_image_browser
-entity_type: node
-bundle: post
+id: media.image.field_image
+field_name: field_image
+entity_type: media
+bundle: image
 label: Image
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

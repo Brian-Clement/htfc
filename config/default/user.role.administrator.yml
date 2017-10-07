@@ -1,0 +1,10 @@
+uuid: bacc657a-fdb1-49c1-9b03-4b5944a61e42
+langcode: en
+status: true
+dependencies: {  }
+id: administrator
+label: Administrator
+weight: 2
+is_admin: null
+permissions:
+  - 'use text format full_html'
