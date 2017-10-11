@@ -18,6 +18,7 @@ if [ ! -f $acsf_file ]; then
   echo "$site.$target_env: Scrubbing database $db_name"
   drush @$site.$target_env sql-sanitize --yes
   drush @$site.$target_env cache-rebuild
+  drush @$site.$target_env user-password admin password
 fi
 
 set +v
