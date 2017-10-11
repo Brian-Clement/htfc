@@ -1,0 +1,23 @@
+uuid: f893ebe8-3f14-46d8-bdf8-920ea918cbcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large_scale
+    - image.style.medium_scale
+    - image.style.small_scale
+id: base_responsive_style
+label: 'Base responsive style'
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - large_scale
+        - medium_scale
+        - small_scale
+breakpoint_group: responsive_image
+fallback_image_style: large_scale

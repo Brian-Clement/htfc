@@ -1,0 +1,25 @@
+uuid: badef8f6-d99f-4c4f-903f-ee4d4a30abaa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:e84a4df1-ce09-4685-ac5d-f3267fadb58d'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: advertisement
+theme: drupal8_zymphonies_theme
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:e84a4df1-ce09-4685-ac5d-f3267fadb58d'
+settings:
+  id: 'block_content:e84a4df1-ce09-4685-ac5d-f3267fadb58d'
+  label: Advertisement
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
